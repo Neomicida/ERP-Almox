@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background: #f2f4f7;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+
+input[type="file"],
+input[type="text"] {
+
+    width: 100%;
+    padding: 12px;
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+}
+
+
+button:hover {
+
+    background: #1d4ed8;
+
+}
+
+
+#dadosNota {
+
+    margin-top: 20px;
+
+}
+
+
+.nota {
+
+    background: #f8fafc;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ddd;
+
+}
+
+
+.produto {
+
+    padding: 8px;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+.sucesso {
+
+    color: green;
+
+}
+
+
+.erro {
+
+    color: red;
+
+}

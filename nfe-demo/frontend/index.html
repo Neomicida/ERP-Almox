@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Importador NF-e</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Importador NF-e</h1>
+
+
+        <section class="card">
+
+            <h2>Importar XML</h2>
+
+            <input 
+                type="file" 
+                id="xmlFile"
+                accept=".xml"
+            >
+
+            <button onclick="importarXML()">
+                Importar XML
+            </button>
+
+            <p id="resultadoImportacao"></p>
+
+        </section>
+
+
+        <section class="card">
+
+            <h2>Receber NF-e</h2>
+
+            <p>
+                Passe o leitor no código de barras do DANFE
+            </p>
+
+            <input
+                type="text"
+                id="chaveNF"
+                placeholder="Bipe a chave da NF-e"
+                autofocus
+            >
+
+            <button onclick="buscarNFe()">
+                Buscar Nota
+            </button>
+
+
+            <div id="dadosNota"></div>
+
+
+        </section>
+
+
+    </div>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
